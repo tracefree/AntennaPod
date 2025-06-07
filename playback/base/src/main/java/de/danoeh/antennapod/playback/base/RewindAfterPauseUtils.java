@@ -13,9 +13,9 @@ public abstract class RewindAfterPauseUtils {
     public static final long ELAPSED_TIME_FOR_MEDIUM_REWIND = TimeUnit.HOURS.toMillis(1);
     public static final long ELAPSED_TIME_FOR_LONG_REWIND = TimeUnit.DAYS.toMillis(1);
 
-    public static final long SHORT_REWIND =  TimeUnit.SECONDS.toMillis(3);
-    public static final long MEDIUM_REWIND = TimeUnit.SECONDS.toMillis(10);
-    public static final long LONG_REWIND = TimeUnit.SECONDS.toMillis(20);
+    public static final long SHORT_REWIND =  TimeUnit.SECONDS.toMillis(0);
+    public static final long MEDIUM_REWIND = TimeUnit.SECONDS.toMillis(0);
+    public static final long LONG_REWIND = TimeUnit.SECONDS.toMillis(0);
 
     /**
      * @param currentPosition  current position in a media file in ms
